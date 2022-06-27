@@ -1,6 +1,6 @@
 #!/bin/bash -xe
 workload_name=$(basename $1)
-sim_path=$PWD"/simulation_"$$$workload_name
+sim_path=$PWD"/simulation_"$2$workload_name
 rm -rf $sim_path
 
 mkdir -p $sim_path
