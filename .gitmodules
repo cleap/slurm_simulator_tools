@@ -1,0 +1,4 @@
+[submodule "slurm_simulator"]
+	path = slurm_simulator
+	url = https://github.com/cleap/slurm_simulator.git
+	branch = chris
