@@ -68,13 +68,15 @@ PriorityDecayHalfLife=14-00:00:00
 SelectType=select/linear # As close as this simulator env can get to being select/alps
 ###SelectTypeParameters=CR_CPU
 
-PriorityType=priority/multifactor
-PriorityFavorSmall=YES
-PriorityWeightAge=1000
-PriorityWeightFairshare=10000
-PriorityWeightJobSize=1000
-PriorityWeightPartition=1000
-PriorityWeightQOS=0
+# Hi mom!
+PriorityType=priority/basic
+#PriorityType=priority/multifactor
+#PriorityFavorSmall=YES
+#PriorityWeightAge=1000
+#PriorityWeightFairshare=10000
+#PriorityWeightJobSize=1000
+#PriorityWeightPartition=1000
+#PriorityWeightQOS=0
 #PriorityWeightAge=50000000 ###100
 #PriorityWeightFairShare=0
 #PriorityWeightQOS=0 ###1000000000
